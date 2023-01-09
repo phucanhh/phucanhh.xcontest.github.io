@@ -1,0 +1,73 @@
+form{
+    width:500px;
+    align-items: center;
+    padding-bottom: 40px;
+    border-radius: 5px;
+justify-content: center;
+margin-top: 150px;
+margin-left: 430px;
+text-align: center;
+
+}
+
+.login{
+    color:yellow;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    font-family: ongdo;
+    letter-spacing: 10px;
+}
+
+input{
+    margin-top:  25px;
+    width: 350px;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    color: yellow;
+    background: transparent;
+    border: 1px solid yellow;
+    background: transparent;
+    border: 0.5px solid yellow;
+    outline: none;
+    box-shadow: 0 0 10px yellow;
+}
+
+input::placeholder{
+    color:yellow;
+    opacity: 30%;
+    font-weight: lighter;
+    padding-left: 23px;
+}
+
+@font-face {
+    font-family: ongdo;
+    src: url("/font/vnithufap2.ttf");
+}
+
+button{
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    color:yellow;
+    background: transparent;
+    border: 1px solid yellow;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+}
+button:hover{
+
+    width: 140px;
+    background-color: yellow;
+    color: white;
+    transition: 1s;
+
+}
+body{
+  background-image: url(/image/PA6.png);
+  background-size: cover;
+}
