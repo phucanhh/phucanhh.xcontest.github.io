@@ -30,8 +30,8 @@ height: 210px;
     
 }
 .anhquangcao{
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 400px;
 
 }
 .thoitrang{
@@ -45,7 +45,7 @@ height: 210px;
 
 .header{
     background-image: url(./image/PA4.png);
-    width: 1350px;
+    width: 100vw;
     height: 150px;
     
 }
